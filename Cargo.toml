@@ -1,0 +1,17 @@
+[package]
+name = "mark_one"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7.6"
+cortex-m-rt = "0.7.1"
+rtic = {version = "2", features=["thumbv6-backend"]}
+embedded-alloc = "0.5.0"
+embedded-hal = "0.2.7"
+embedded-time = "0.12.1"
+fugit = "0.3.6"
+rp-pico = "0.7.0"
+rtic-sync = "1.0.1"
+panic-semihosting = "0.6.0"
+critical-section = "1.1.2"
